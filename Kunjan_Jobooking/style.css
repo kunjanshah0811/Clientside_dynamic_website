@@ -1,0 +1,193 @@
+/* New & Featured heading */
+.heading {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 5%;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 8vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  
+  /* Categories > Nike tagline */
+  .tagline {
+    position: absolute;
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 137px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #21bd64;
+    display: flex;
+  }
+  
+
+  /* Cards */
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    flex-wrap: wrap;
+   
+  }
+  
+  .card {
+    height: 323.5714416503906px;
+    width: 302px;
+    border-radius: 17.9761905670166px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card + .card {
+    margin-left: 20px;
+  }
+  
+  .card:hover {
+    transform: scale(1.2);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .card img {
+    height: 130.32737731933594px;
+    width: 248.07142639160156px;
+    left: 26.965px;
+    max-width: 100%;
+  
+    top: 33.34521484375px;
+    border-radius: 0px;
+    position: absolute;
+  }
+  
+
+  .shoe-name {
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    left: 0;
+    bottom: 84px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.2679px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  
+.shoe-type {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    left: 0;
+    bottom: 60px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5833px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .card-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  .price-button {
+    display: flex;
+    justify-content: center;
+    width: 70.15px;
+    height: 35.18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5833px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    align-items: center;
+  }
+  .seemore-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5833px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: none;
+border-radius: 50px;}
+    
+  .card:hover .price-button {
+    
+    width: 70.15px;
+    height: 35.18px;
+    justify-content: center;
+    text-align:center;
+    background-color: #FFCC00;
+    flex-direction: row;
+    gap: 10px;
+    animation-name: fade-in-right;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+    
+
+    
+  }
+
+  .card:hover .seemore-button {
+    display: flex;
+    width: 150px;
+    height: 35.18px;
+    margin-left: 10px;
+    text-align:center;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    left: 0px;
+    top: 9px;
+  }
