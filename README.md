@@ -1,4 +1,4 @@
-# Clientside_dynamic-_website
+# Clientside_dynamic_website
 
 This repository contains files for a client-side dynamic website.
 
